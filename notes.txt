@@ -1,0 +1,17 @@
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ ls
+geckodriver.log  nightwatch.conf.js  node_modules  package.json  package-lock.json  tests  tests_output
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git init
+Initialized empty Git repository in /home/ns-hyd/Downloads/shravan/Git/nightwatch/.git/
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ ls
+geckodriver.log  nightwatch.conf.js  node_modules  package.json  package-lock.json  tests  tests_output
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ cd .git/
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch/.git$ ls
+branches  config  description  HEAD  hooks  info  objects  refs
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch/.git$ cd ..
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ ls
+geckodriver.log  nightwatch.conf.js  node_modules  package.json  package-lock.json  tests  tests_output
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ echo "# Nightwatch" >> README.md
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git add .
+
+
+
