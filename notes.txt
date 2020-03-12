@@ -163,3 +163,31 @@ index 614ae7d..a2ed5ca 100644
  
 ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ nano notes.txt 
 
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git commit -a -m "add new vendor"
+[master 678c063] add new vendor
+ 2 files changed, 149 insertions(+)
+ create mode 100644 vendors.txt
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git add .
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   master
+
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git commit -m "add new vendor"
+[master eea33cd] add new vendor
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 master
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
