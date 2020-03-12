@@ -317,3 +317,156 @@ Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
         deleted:    vendors.txt
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git mv vendor.txt vendor1.txt
+fatal: not under version control, source=vendor.txt, destination=vendor1.txt
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ xdg-open http://git-school.github.io/visualizing-git
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ Opening in existing browser session.
+^C
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ xdg-open http://git-school.github.io/visualizing-git
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ Opening in existing browser session.
+ ^C
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git checkout -b new_branch
+M       notes.txt
+D       vendors.txt
+Switched to a new branch 'new_branch'
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch new_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   notes.txt
+        deleted:    vendors.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        vendor.txt
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git commit -m "remove vendors.txt fiel and created vendor.txt"
+[new_branch c038402] remove vendors.txt fiel and created vendor.txt
+ 2 files changed, 126 insertions(+), 1 deletion(-)
+ delete mode 100644 vendors.txt
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch new_branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        vendor.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git add .
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch new_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   notes.txt
+        new file:   vendor.txt
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git chceckout master
+git: 'chceckout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git che
+checkout      cherry        cherry-pick   
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git checkout master 
+error: Your local changes to the following files would be overwritten by checkout:
+        notes.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git sta
+stage    stash    status   
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git stash
+Saved working directory and index state WIP on new_branch: c038402 remove vendors.txt fiel and created vendor.txt
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch new_branch
+nothing to commit, working tree clean
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status  list
+On branch new_branch
+nothing to commit, working tree clean
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status list
+On branch new_branch
+nothing to commit, working tree clean
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status show
+On branch new_branch
+nothing to commit, working tree clean
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git checkout new_branch 
+Switched to branch 'new_branch'
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ touch testFile.txt
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testFile.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ nano testFile.txt 
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testFile.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git add testFile.txt 
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ ls
+geckodriver.log  nightwatch.conf.js  notes.txt     package-lock.json  testFile.txt  tests_output
+master           node_modules        package.json  README.md          tests         vendors.txt
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testFile.txt
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git commit -m "add testFile"
+[master 2562dc8] add testFile
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testFile.txt
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git merge new_branch 
+Removing vendors.txt
+Merge made by the 'recursive' strategy.
+ notes.txt   | 126 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ vendors.txt |   1 -
+ 2 files changed, 126 insertions(+), 1 deletion(-)
+ delete mode 100644 vendors.txt
