@@ -163,6 +163,31 @@ index 614ae7d..a2ed5ca 100644
  
 ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ nano notes.txt 
 
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        master
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git add .
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   master
+
+
+
 ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git commit -a -m "add new vendor"
 [master 678c063] add new vendor
  2 files changed, 149 insertions(+)
@@ -184,6 +209,8 @@ ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git commit -m "add new
 [master eea33cd] add new vendor
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 master
+
+
 ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -191,3 +218,102 @@ Your branch is ahead of 'origin/master' by 1 commit.
 
 nothing to commit, working tree clean
 
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git log
+commit db19a1398bf7e1592b8bccddb15a82619a924441 (HEAD -> master, origin/master)
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:44:57 2020 +0530
+
+    add new vendor
+
+commit eea33cd437250c4faf0ec4fd653e5b1606bcd39f
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:34:51 2020 +0530
+
+    add new vendor
+
+commit 678c0635cfc117e85bf7e63109f029437482bc73
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:15:54 2020 +0530
+:...skipping...
+commit db19a1398bf7e1592b8bccddb15a82619a924441 (HEAD -> master, origin/master)
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:44:57 2020 +0530
+
+    add new vendor
+
+commit eea33cd437250c4faf0ec4fd653e5b1606bcd39f
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:34:51 2020 +0530
+
+    add new vendor
+
+commit 678c0635cfc117e85bf7e63109f029437482bc73
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:15:54 2020 +0530
+
+    add new vendor
+
+commit c18d36e55acc064a86d4466e133a71b779dc7a38
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Wed Mar 11 17:15:57 2020 +0530
+
+    first commit
+~
+~
+
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git log -1
+commit db19a1398bf7e1592b8bccddb15a82619a924441 (HEAD -> master, origin/master)
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:44:57 2020 +0530
+
+    add new vendor
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git log --oneline
+db19a13 (HEAD -> master, origin/master) add new vendor
+eea33cd add new vendor
+678c063 add new vendor
+c18d36e first commit
+
+
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git log --stat
+commit db19a1398bf7e1592b8bccddb15a82619a924441 (HEAD -> master, origin/master)
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:44:57 2020 +0530
+
+    add new vendor
+
+ notes.txt | 28 ++++++++++++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+commit eea33cd437250c4faf0ec4fd653e5b1606bcd39f
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:34:51 2020 +0530
+
+    add new vendor
+
+ master | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 678c0635cfc117e85bf7e63109f029437482bc73
+Author: ShravanRajirkam <shravan@s7works.io>
+Date:   Thu Mar 12 10:15:54 2020 +0530
+
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git rm vendors.txt 
+rm 'vendors.txt' 
+
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/Git/nightwatch$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    vendors.txt
