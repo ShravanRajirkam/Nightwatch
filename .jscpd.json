@@ -1,0 +1,7 @@
+{
+    "threshold": 50,
+    "reporters": ["html", "json", "xml", "console", "time"],
+    "ignore": ["**/node_modules/**", "**/reports/**"],
+    "absolute": true,
+    "output": "reports/jscpd"
+  }

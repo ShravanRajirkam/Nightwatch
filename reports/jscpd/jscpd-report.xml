@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?><pmd-cpd>
+      <duplication lines="27">
+            <file path="/home/ns-hyd/Downloads/shravan/sample/Nightwatch/html/crud.html" line="297">
+              <codefragment><![CDATA[this.CreateNew = function (oButton) {
+            var activeRow = oButton.parentNode.parentNode.rowIndex;
+            var tab = document.getElementById('booksTable').rows[activeRow];
+            var obj = {};
+
+            // ADD NEW VALUE TO myBooks ARRAY.
+            for (i = 1; i < this.col.length; i++) {
+                var td = tab.getElementsByTagName("td")[i];
+                if (td.childNodes[0].getAttribute('type') == 'text' || td.childNodes[0].tagName == 'SELECT') {      // CHECK IF ELEMENT IS A TEXTBOX OR SELECT.
+                    var txtVal = td.childNodes[0].value;
+                    if (txtVal != '') {
+                        obj[this.col[i]] = txtVal.trim();
+                    }
+                    else {
+                        obj = '';
+                        alert('all fields are compulsory');
+                        break;
+                    }
+                }
+            }
+            obj[this.col[0]] = this.myBooks.length + 1;     // NEW ID.
+
+            if (Object.keys(obj).length > 0) {      // CHECK IF OBJECT IS NOT EMPTY.
+                this.myBooks.push(obj);             // PUSH (ADD) DATA TO THE JSON ARRAY.
+                this.createTable();                 // REFRESH THE TABLE.
+            }
+        }
+        // ****** OPERATIONS END.]]></codefragment>
+            </file>
+            <file path="/home/ns-hyd/Downloads/shravan/sample/Nightwatch/html/crud.html" line="270">
+              <codefragment><![CDATA[this.CreateNew = function (oButton) {
+            var activeRow = oButton.parentNode.parentNode.rowIndex;
+            var tab = document.getElementById('booksTable').rows[activeRow];
+            var obj = {};
+
+            // ADD NEW VALUE TO myBooks ARRAY.
+            for (i = 1; i < this.col.length; i++) {
+                var td = tab.getElementsByTagName("td")[i];
+                if (td.childNodes[0].getAttribute('type') == 'text' || td.childNodes[0].tagName == 'SELECT') {      // CHECK IF ELEMENT IS A TEXTBOX OR SELECT.
+                    var txtVal = td.childNodes[0].value;
+                    if (txtVal != '') {
+                        obj[this.col[i]] = txtVal.trim();
+                    }
+                    else {
+                        obj = '';
+                        alert('all fields are compulsory');
+                        break;
+                    }
+                }
+            }
+            obj[this.col[0]] = this.myBooks.length + 1;     // NEW ID.
+
+            if (Object.keys(obj).length > 0) {      // CHECK IF OBJECT IS NOT EMPTY.
+                this.myBooks.push(obj);             // PUSH (ADD) DATA TO THE JSON ARRAY.
+                this.createTable();                 // REFRESH THE TABLE.
+            }
+        }
+this]]></codefragment>
+            </file>
+            <codefragment><![CDATA[this.CreateNew = function (oButton) {
+            var activeRow = oButton.parentNode.parentNode.rowIndex;
+            var tab = document.getElementById('booksTable').rows[activeRow];
+            var obj = {};
+
+            // ADD NEW VALUE TO myBooks ARRAY.
+            for (i = 1; i < this.col.length; i++) {
+                var td = tab.getElementsByTagName("td")[i];
+                if (td.childNodes[0].getAttribute('type') == 'text' || td.childNodes[0].tagName == 'SELECT') {      // CHECK IF ELEMENT IS A TEXTBOX OR SELECT.
+                    var txtVal = td.childNodes[0].value;
+                    if (txtVal != '') {
+                        obj[this.col[i]] = txtVal.trim();
+                    }
+                    else {
+                        obj = '';
+                        alert('all fields are compulsory');
+                        break;
+                    }
+                }
+            }
+            obj[this.col[0]] = this.myBooks.length + 1;     // NEW ID.
+
+            if (Object.keys(obj).length > 0) {      // CHECK IF OBJECT IS NOT EMPTY.
+                this.myBooks.push(obj);             // PUSH (ADD) DATA TO THE JSON ARRAY.
+                this.createTable();                 // REFRESH THE TABLE.
+            }
+        }
+        // ****** OPERATIONS END.]]></codefragment>
+        </duplication>
+      </pmd-cpd>

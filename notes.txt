@@ -1,0 +1,1028 @@
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ jscpd -V
+3.0.0
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ npm i -g jscpd
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm ERR! code EACCES
+npm ERR! syscall unlink
+npm ERR! path /usr/local/bin/jscpd
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, unlink '/usr/local/bin/jscpd'
+npm ERR!  [OperationalError: EACCES: permission denied, unlink '/usr/local/bin/jscpd'] {
+npm ERR!   cause: [Error: EACCES: permission denied, unlink '/usr/local/bin/jscpd'] {
+npm ERR!     errno: -13,
+npm ERR!     code: 'EACCES',
+npm ERR!     syscall: 'unlink',
+npm ERR!     path: '/usr/local/bin/jscpd'
+npm ERR!   },
+npm ERR!   stack: "Error: EACCES: permission denied, unlink '/usr/local/bin/jscpd'",
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'unlink',
+npm ERR!   path: '/usr/local/bin/jscpd'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ns-hyd/.npm/_logs/2020-03-10T08_07_19_909Z-debug.log
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ sudo npm i -g jscpd
+[sudo] password for ns-hyd: 
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+/usr/local/bin/jscpd -> /usr/local/lib/node_modules/jscpd/bin/jscpd
++ jscpd@3.0.0
+updated 1 package in 5.838s
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ npm i jscpd
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+
+> leveldown@5.5.1 install /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/leveldown
+> node-gyp-build
+
+
+> core-js@2.6.11 postinstall /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm WARN night-watch@1.0.0 No description
+npm WARN night-watch@1.0.0 No repository field.
+
++ jscpd@3.0.0
+added 234 packages from 262 contributors and audited 1764 packages in 8.009s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ jscpd /s
+sbin/ snap/ srv/  sys/  
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ jscpd /s
+sbin/ snap/ srv/  sys/  
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ jscpd /s
+sbin/ snap/ srv/  sys/  
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ jscpd /tests/
+Execution Time: 250.389ms
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ npm jscpd /tests/
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /home/ns-hyd/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.2 /usr/local/lib/node_modules/npm
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ npm jscpd /tests/firstTest.js
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /home/ns-hyd/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.2 /usr/local/lib/node_modules/npm
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ jscpd /tests/firstTest.js
+Execution Time: 171.283ms
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ npm jscpd /tests/
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /home/ns-hyd/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.2 /usr/local/lib/node_modules/npm
+
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ yarn jscpd /tests/
+yarn run v1.22.0
+$ /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/.bin/jscpd /tests/
+Execution Time: 196.172ms
+Done in 0.69s.
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ yarn jscpd /tests/
+yarn run v1.22.0
+$ /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/.bin/jscpd /tests/
+HTML report saved to reports/jscpd/jscpd-report.html
+Execution Time: 412.298ms
+Done in 0.75s.
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ yarn jscpd .
+yarn run v1.22.0
+$ /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/.bin/jscpd .
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/acorn-globals/index.js [108:23 - 117:6]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/acorn-globals/index.js [96:26 - 105:22]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/adm-zip/zipFile.js [270:41 - 284:9]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/adm-zip/zipFile.js [195:46 - 208:5]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/adm-zip/zipFile.js [289:8 - 311:17]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/adm-zip/zipFile.js [210:4 - 232:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [124:14 - 133:29]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [6:71 - 15:29]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [133:35 - 139:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [15:35 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-flatten/README.md [52:43 - 86:127]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asap/LICENSE.md [4:1 - 20:17]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asap/README.md [115:1 - 128:146]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asap/CHANGES.md [56:1 - 67:146]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asap/raw.js [35:1 - 71:8]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asap/browser-raw.js [37:1 - 73:79]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/assert-plus/README.md [142:1 - 158:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/assert-plus/assert.js [169:38 - 177:20]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/assert-plus/assert.js [147:30 - 155:18]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/assert-plus/assert.js [180:13 - 192:40]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/assert-plus/assert.js [155:13 - 167:33]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/assertion-error/README.md [25:1 - 41:14]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ast-types/main.js [1:13 - 6:11]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ast-types/fork.js [1:14 - 6:12]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asynckit/bench.js [48:20 - 66:17]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/asynckit/bench.js [26:12 - 44:2]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/balanced-match/LICENSE.md [5:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/balanced-match/README.md [71:1 - 91:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/balanced-match/LICENSE.md [1:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/base/README.md [461:1 - 491:132]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [100:1 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/bluebird/README.md [40:1 - 56:14]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/brace-expansion/README.md [109:1 - 129:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/balanced-match/LICENSE.md [1:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cache-base/README.md [257:69 - 291:127]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/chai-nightwatch/README.md [18:1 - 34:14]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/chalk/readme.md [186:1 - 220:6]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-styles/readme.md [60:1 - 94:3]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/character-parser/index.js [116:29 - 124:36]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/character-parser/index.js [107:30 - 115:34]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/class-utils/README.md [239:1 - 273:19]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [207:1 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cli-table3/README.md [199:92 - 218:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [120:61 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/clone/README.md [112:68 - 121:29]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [6:71 - 15:29]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/collection-visit/README.md [55:41 - 89:128]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 130:128]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/color-convert/index.js [29:21 - 39:6]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/color-convert/index.js [8:17 - 18:9]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/constantinople/README.md [40:1 - 46:6]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/constantinople/README.md [32:1 - 38:8]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/core-js/package.json [56:59 - 86:12]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/core-js/bower.json [5:36 - 35:12]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/data-uri-to-buffer/README.md [59:20 - 78:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [120:20 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/debug/README.md [418:62 - 437:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [120:61 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deep-eql/README.md [34:55 - 52:14]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/chai-nightwatch/README.md [16:59 - 21:10]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deep-is/package.json [59:3 - 89:21]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/concat-map/package.json [57:3 - 87:21]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/LICENSE.md [3:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-property/CHANGELOG.md [3:1 - 39:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/braces/CHANGELOG.md [3:1 - 37:5]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-property/README.md [50:4 - 90:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/degenerator/README.md [120:1 - 141:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [118:1 - 21:10]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/del/index.js [90:23 - 101:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/del/index.js [55:24 - 66:17]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/del/readme.md [122:116 - 128:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cli-cursor/readme.md [49:130 - 55:7]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/dir-glob/index.js [62:23 - 72:17]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/dir-glob/index.js [44:24 - 54:21]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/CONTRIBUTORS.md [3:1 - 8:19]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/CONTRIBUTORS.md [3:1 - 8:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/LICENSE.md [3:28 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:41 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/README.md [171:65 - 191:33]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 60:33]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/UPGRADING.md [3:1 - 15:8]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/UPGRADING.md [3:1 - 15:21]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/errno/README.md [129:1 - 145:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/es-to-primitive/CHANGELOG.md [39:3 - 49:12]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/es-to-primitive/CHANGELOG.md [28:3 - 38:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/escodegen/README.md [78:54 - 84:66]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/duplexer2/LICENSE.md [20:50 - 26:61]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/estraverse/README.md [131:25 - 153:66]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/escodegen/README.md [62:20 - 26:61]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/esutils/README.md [152:20 - 174:66]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/escodegen/README.md [62:20 - 26:61]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/expand-brackets/README.md [272:1 - 298:103]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/array-unique/README.md [47:1 - 73:100]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/expand-tilde/README.md [42:341 - 76:42]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/array-unique/README.md [39:371 - 73:100]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend/.jscs.json [1:1 - 118:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [1:1 - 118:15]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend/.jscs.json [127:36 - 174:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [127:48 - 174:2]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend/.travis.yml [6:3 - 40:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [6:3 - 40:22]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend/.travis.yml [40:5 - 230:40]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [42:5 - 232:40]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend-shallow/README.md [29:22 - 69:18]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extglob/README.md [287:1 - 321:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [207:1 - 242:13]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-deep-equal/react.js [1:1 - 38:14]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-deep-equal/index.js [1:1 - 38:12]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-json-stable-stringify/README.md [119:254 - 131:85]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-deep-equal/README.md [84:221 - 96:74]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-levenshtein/LICENSE.md [5:1 - 24:32]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-levenshtein/levenshtein.js [89:56 - 112:13]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-levenshtein/levenshtein.js [57:94 - 80:11]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fastq/queue.js [92:20 - 101:20]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fastq/queue.js [69:17 - 78:20]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/file-uri-to-path/.travis.yml [18:1 - 30:13]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/degenerator/.travis.yml [17:1 - 29:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/file-uri-to-path/README.md [53:1 - 74:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/data-uri-to-buffer/README.md [57:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fill-range/README.md [169:46 - 207:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 240:4]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/for-in/README.md [51:49 - 85:131]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fragment-cache/README.md [118:210 - 152:102]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/array-unique/README.md [39:371 - 73:100]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fs-minipass/index.js [354:3 - 366:4]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fs-minipass/index.js [190:3 - 201:2]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fs.realpath/old.js [193:59 - 221:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fs.realpath/old.js [91:20 - 119:19]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fs.realpath/old.js [240:5 - 250:13]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fs.realpath/old.js [128:5 - 138:15]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/function-bind/.jscs.json [1:1 - 27:19]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [1:1 - 27:21]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/function-bind/.jscs.json [27:19 - 119:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [26:22 - 118:15]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/function-bind/.jscs.json [120:2 - 175:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [119:2 - 174:2]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/function-bind/.travis.yml [36:5 - 64:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [92:5 - 120:22]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/function-bind/.travis.yml [63:7 - 110:21]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [125:7 - 172:21]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/function-bind/.travis.yml [109:7 - 168:40]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [173:7 - 232:40]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/get-installed-path/README.md [142:190 - 148:162]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/detect-installed/README.md [116:253 - 122:160]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/get-installed-path/README.md [148:162 - 189:131]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/detect-installed/README.md [122:160 - 163:131]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/get-installed-path/package.json [93:53 - 113:27]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/detect-installed/package.json [103:69 - 123:23]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/get-uri/README.md [131:1 - 152:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/data-uri-to-buffer/README.md [57:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/glob-to-regexp/README.md [56:1 - 69:34]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/escodegen/README.md [65:1 - 78:36]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/glob-to-regexp/README.md [69:68 - 75:61]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/duplexer2/LICENSE.md [20:50 - 26:61]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/global-modules/README.md [41:49 - 75:127]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/global-prefix/README.md [44:53 - 78:128]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 75:128]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/globby/index.js [155:23 - 164:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/globby/index.js [139:21 - 149:8]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/good-listener/karma.conf.js [1:1 - 24:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/delegate/karma.conf.js [1:1 - 24:2]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/graceful-fs/legacy-streams.js [87:26 - 98:19]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/graceful-fs/legacy-streams.js [25:32 - 36:22]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/growl/Readme.md [92:1 - 109:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [122:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-value/README.md [102:248 - 114:5]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cache-base/README.md [244:243 - 256:5]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-value/README.md [115:51 - 149:126]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [96:49 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-values/README.md [88:234 - 95:5]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend-shallow/README.md [71:440 - 78:2]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-values/README.md [99:1 - 129:127]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/arr-diff/README.md [100:1 - 149:127]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/homedir-polyfill/README.md [42:1 - 72:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [212:1 - 242:2]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/http-errors/index.js [192:36 - 213:23]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/http-errors/index.js [144:36 - 165:23]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/http-proxy-agent/README.md [53:1 - 74:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [118:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/https-proxy-agent/README.md [114:1 - 135:55]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/agent-base/README.md [118:1 - 21:10]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/https-proxy-agent/index.js [33:51 - 47:40]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/http-proxy-agent/index.js [30:51 - 42:5]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ip/README.md [73:1 - 90:39]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-data-descriptor/README.md [99:1 - 112:164]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-accessor-descriptor/README.md [94:1 - 107:168]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-date-object/.jscs.json [1:1 - 119:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [1:1 - 118:15]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-date-object/.jscs.json [120:2 - 175:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.jscs.json [119:2 - 174:2]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-descriptor/README.md [159:5 - 193:128]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cache-base/README.md [257:5 - 291:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-expression/LICENSE.md [3:1 - 19:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-extglob/README.md [67:205 - 103:98]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/expand-tilde/README.md [40:274 - 73:100]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-glob/README.md [136:11 - 176:12]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-number/README.md [118:18 - 158:19]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-number/README.md [159:213 - 167:5]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/extend-shallow/README.md [72:266 - 80:5]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-path-inside/readme.md [57:138 - 63:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cli-cursor/readme.md [49:130 - 55:7]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-plain-object/README.md [55:234 - 65:2]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-values/README.md [89:266 - 99:2]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-plain-object/README.md [69:47 - 104:127]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-descriptor/README.md [158:41 - 130:128]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-typedarray/LICENSE.md [3:1 - 18:75]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is-windows/README.md [25:45 - 65:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/is2/README.md [149:1 - 164:75]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/isarray/README.md [29:41 - 54:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/balanced-match/README.md [66:27 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/isobject/README.md [88:40 - 122:127]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/base/README.md [457:71 - 130:128]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/json-schema-traverse/.eslintrc.yml [12:3 - 27:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/fast-json-stable-stringify/.eslintrc.yml [10:3 - 25:22]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/jstransformer/index.js [54:85 - 67:24]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/jstransformer/index.js [27:85 - 40:26]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/kind-of/CHANGELOG.md [3:1 - 37:8]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/braces/CHANGELOG.md [3:1 - 39:6]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/kind-of/README.md [292:14 - 332:11]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level/LICENSE.md [3:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-codec/LICENSE.md [3:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/LICENSE.md [3:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-codec/README.md [120:49 - 128:248]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 48:251]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-concat-iterator/LICENSE.md [3:28 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:41 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-concat-iterator/README.md [40:69 - 60:33]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 140:33]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-concat-iterator/test.js [54:61 - 75:27]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-concat-iterator/test.js [23:43 - 44:27]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-errors/LICENSE.md [3:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/LICENSE.md [3:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-errors/README.md [54:51 - 74:66]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 140:66]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-iterator-stream/LICENSE.md [3:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/LICENSE.md [3:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-iterator-stream/README.md [54:69 - 74:66]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 191:66]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-iterator-stream/test.js [132:32 - 141:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-iterator-stream/test.js [117:31 - 126:21]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-iterator-stream/test.js [198:53 - 208:24]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-iterator-stream/test.js [179:52 - 189:23]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-js/LICENSE.md [3:73 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:41 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-js/README.md [140:55 - 160:44]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 191:47]
+
+Clone found (markup):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-js/sauce-labs.svg [1:1 - 81:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/sauce-labs.svg [1:1 - 81:7]
+
+Clone found (css):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-js/sauce-labs.svg [18:51 - 75:30]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/sauce-labs.svg [18:51 - 75:30]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-packager/CONTRIBUTORS.md [4:146 - 9:18]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/CONTRIBUTORS.md [4:144 - 9:19]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-packager/LICENSE.md [3:28 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:41 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-packager/README.md [34:55 - 54:35]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 60:37]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-packager/test.js [113:50 - 125:16]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-packager/test.js [56:39 - 68:8]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-supports/LICENSE.md [3:28 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:41 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/level-supports/README.md [193:55 - 213:33]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 60:33]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/leveldown/LICENSE.md [3:41 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [3:41 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/leveldown/README.md [432:57 - 440:5]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/deferred-leveldown/README.md [40:75 - 48:3]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/leveldown/README.md [465:1 - 477:37]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/README.md [179:1 - 191:35]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/levelup/LICENSE.md [3:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/encoding-down/LICENSE.md [3:1 - 21:10]
+
+Clone found (markup):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/levelup/sauce-labs.svg [1:1 - 81:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/sauce-labs.svg [1:1 - 81:7]
+
+Clone found (css):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/levelup/sauce-labs.svg [18:51 - 75:30]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/sauce-labs.svg [18:51 - 75:30]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_ListCache.js [14:19 - 25:31]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_Hash.js [14:14 - 25:26]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_MapCache.js [14:18 - 25:30]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_Hash.js [14:14 - 25:26]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_baseIsTypedArray.js [17:34 - 32:62]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_baseClone.js [42:34 - 57:69]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_nodeUtil.js [1:41 - 12:52]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_cloneBuffer.js [1:29 - 12:34]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_unicodeToArray.js [1:1 - 35:4]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_unicodeSize.js [1:1 - 35:4]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/indexOf.js [30:30 - 39:21]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/findIndex.js [43:36 - 52:23]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/isBuffer.js [2:38 - 14:54]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_cloneBuffer.js [1:29 - 13:54]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/takeRight.js [29:19 - 36:28]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/dropRight.js [29:19 - 36:28]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/index.js [18:19 - 29:27]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_copyArray.js [9:19 - 20:27]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arrayeach/package.json [23:38 - 62:82]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [23:38 - 62:82]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._baseassign/package.json [23:39 - 61:17]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [23:38 - 61:15]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._baseclone/index.js [14:33 - 32:15]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_baseIsTypedArray.js [3:44 - 21:16]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._baseclone/index.js [93:52 - 105:23]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_baseClone.js [96:59 - 108:23]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._baseclone/package.json [24:82 - 62:24]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [24:87 - 62:23]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._basecopy/package.json [24:88 - 62:81]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [24:87 - 62:82]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._basefor/index.js [31:1 - 48:25]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_createBaseFor.js [8:1 - 25:31]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._basefor/package.json [23:36 - 41:31]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [23:38 - 41:29]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._bindcallback/package.json [23:41 - 62:85]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._baseclone/package.json [23:38 - 62:82]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._getnative/package.json [24:81 - 62:82]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [24:87 - 62:82]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._isiterateecall/index.js [78:1 - 86:8]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/_isIterateeCall.js [16:1 - 25:11]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._isiterateecall/package.json [23:43 - 62:87]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._baseclone/package.json [23:38 - 62:82]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.clone/package.json [24:80 - 62:24]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [24:87 - 62:23]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.defaultsdeep/package.json [24:80 - 44:76]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash/package.json [25:84 - 45:45]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.isarguments/package.json [23:39 - 42:42]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._getnative/package.json [23:38 - 42:36]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.isarray/index.js [12:5 - 49:87]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._getnative/index.js [11:5 - 55:4]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.isarray/index.js [104:1 - 180:25]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._getnative/index.js [61:1 - 137:27]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.isarray/package.json [24:35 - 63:73]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [23:38 - 62:82]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.keys/index.js [29:1 - 89:4]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._isiterateecall/index.js [17:1 - 77:4]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.keys/package.json [24:32 - 63:24]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash._arraycopy/package.json [23:38 - 62:23]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.merge/package.json [23:33 - 44:69]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lodash.defaultsdeep/package.json [23:40 - 45:45]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/map-cache/README.md [107:155 - 141:97]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/lazy-cache/README.md [109:156 - 143:98]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/map-visit/README.md [109:355 - 120:5]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/collection-visit/README.md [43:190 - 54:5]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/map-visit/README.md [121:5 - 155:129]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/collection-visit/README.md [55:5 - 89:129]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/micromatch/CHANGELOG.md [3:1 - 39:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/braces/CHANGELOG.md [3:1 - 39:6]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/micromatch/index.js [295:18 - 300:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/micromatch/index.js [259:17 - 264:14]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/minimatch/README.md [201:34 - 209:69]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/glob/README.md [299:29 - 307:69]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/mixin-deep/README.md [21:45 - 60:17]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ansi-colors/README.md [202:50 - 242:13]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/mkdirp/index.js [56:5 - 68:6]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/mkdirp/index.js [12:10 - 24:8]
+
+Clone found (css):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/mocha/mocha.css [184:3 - 195:12]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/mocha/mocha.css [142:3 - 153:13]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/ms/license.md [5:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/netmask/README.md [70:55 - 76:461]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/growl/Readme.md [90:63 - 21:10]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/nightwatch/LICENSE.md [5:1 - 21:10]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/abstract-leveldown/LICENSE.md [5:1 - 21:10]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [141:5 - 168:11]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [112:5 - 139:19]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [170:21 - 198:19]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [140:36 - 139:19]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [200:29 - 229:20]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [169:36 - 139:19]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [233:33 - 261:21]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [140:36 - 139:19]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [369:28 - 401:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/node-environment-flags/flags.json [332:32 - 364:21]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/oauth-sign/index.js [89:22 - 96:33]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/oauth-sign/index.js [79:19 - 86:31]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-copy/index.js [89:12 - 118:4]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/class-utils/index.js [55:15 - 69:3]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-keys/.travis.yml [11:3 - 41:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [10:3 - 40:22]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-keys/.travis.yml [71:5 - 109:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [40:5 - 78:22]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-keys/.travis.yml [116:7 - 159:22]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [77:7 - 120:22]
+
+Clone found (yaml):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-keys/.travis.yml [162:7 - 276:25]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/.travis.yml [119:7 - 233:25]
+
+Clone found (json):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-keys/package.json [96:39 - 118:21]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/define-properties/package.json [76:28 - 98:21]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object-visit/README.md [45:190 - 83:126]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-values/README.md [91:172 - 130:128]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object.assign/hasSymbols.js [5:1 - 22:5]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-symbols/shams.js [4:1 - 21:75]
+
+Clone found (javascript):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object.assign/hasSymbols.js [26:2 - 41:3]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/has-symbols/shams.js [27:2 - 42:3]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/object.pick/README.md [38:278 - 72:99]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/array-unique/README.md [39:371 - 73:100]
+
+Clone found (markdown):
+ - /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/p-limit/readme.md [87:124 - 93:7]
+   /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/cli-cursor/readme.md [49:130 - 55:7]
+
+^C
+ns-hyd@nshyd-H110M-S2:~/Downloads/shravan/sample/Nightwatch$ yarn jscpd .
+yarn run v1.22.0
+$ /home/ns-hyd/Downloads/shravan/sample/Nightwatch/node_modules/.bin/jscpd .
+HTML report saved to reports/jscpd/jscpd-report.html
+┌────────────┬────────────────┬─────────────┬──────────────┬──────────────────┬────┐
+│ Format     │ Files analyzed │ Total lines │ Clones found │ Duplicated lines │ %  │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────────┼────┤
+│ json       │ 2              │ 27          │ 0            │ 0                │ 0% │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────────┼────┤
+│ javascript │ 3              │ 245         │ 0            │ 0                │ 0% │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────────┼────┤
+│ markup     │ 3              │ 58          │ 0            │ 0                │ 0% │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────────┼────┤
+│ Total:     │ 8              │ 330         │ 0            │ 0                │ 0% │
+└────────────┴────────────────┴─────────────┴──────────────┴──────────────────┴────┘
+Execution Time: 1124.870ms
+Done in 1.49s.

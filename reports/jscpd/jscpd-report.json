@@ -1,0 +1,211 @@
+{
+	"duplicates": [
+		{
+			"format": "markup",
+			"lines": 28,
+			"fragment": "this.CreateNew = function (oButton) {\n            var activeRow = oButton.parentNode.parentNode.rowIndex;\n            var tab = document.getElementById('booksTable').rows[activeRow];\n            var obj = {};\n\n            // ADD NEW VALUE TO myBooks ARRAY.\n            for (i = 1; i < this.col.length; i++) {\n                var td = tab.getElementsByTagName(\"td\")[i];\n                if (td.childNodes[0].getAttribute('type') == 'text' || td.childNodes[0].tagName == 'SELECT') {      // CHECK IF ELEMENT IS A TEXTBOX OR SELECT.\n                    var txtVal = td.childNodes[0].value;\n                    if (txtVal != '') {\n                        obj[this.col[i]] = txtVal.trim();\n                    }\n                    else {\n                        obj = '';\n                        alert('all fields are compulsory');\n                        break;\n                    }\n                }\n            }\n            obj[this.col[0]] = this.myBooks.length + 1;     // NEW ID.\n\n            if (Object.keys(obj).length > 0) {      // CHECK IF OBJECT IS NOT EMPTY.\n                this.myBooks.push(obj);             // PUSH (ADD) DATA TO THE JSON ARRAY.\n                this.createTable();                 // REFRESH THE TABLE.\n            }\n        }\n        // ****** OPERATIONS END.",
+			"tokens": 0,
+			"firstFile": {
+				"name": "/home/ns-hyd/Downloads/shravan/sample/Nightwatch/html/crud.html",
+				"start": 297,
+				"end": 324,
+				"startLoc": {
+					"line": 297,
+					"column": 1
+				},
+				"endLoc": {
+					"line": 324,
+					"column": 34
+				}
+			},
+			"secondFile": {
+				"name": "/home/ns-hyd/Downloads/shravan/sample/Nightwatch/html/crud.html",
+				"start": 270,
+				"end": 297,
+				"startLoc": {
+					"line": 270,
+					"column": 9
+				},
+				"endLoc": {
+					"line": 297,
+					"column": 5
+				}
+			}
+		}
+	],
+	"statistics": {
+		"detectionDate": "2020-03-17T03:00:52.349Z",
+		"formats": {
+			"json": {
+				"sources": {
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/.jscpd.json": {
+						"lines": 7,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/package.json": {
+						"lines": 21,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					}
+				},
+				"total": {
+					"lines": 28,
+					"sources": 2,
+					"clones": 0,
+					"duplicatedLines": 0,
+					"percentage": 0,
+					"newDuplicatedLines": 0,
+					"newClones": 0
+				}
+			},
+			"javascript": {
+				"sources": {
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/nightwatch.conf.js": {
+						"lines": 219,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests/javascript/copy.js": {
+						"lines": 21,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests/javascript/firstTest copy.js": {
+						"lines": 10,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests/javascript/firstTest.js": {
+						"lines": 10,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests/javascript/google.js": {
+						"lines": 16,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					}
+				},
+				"total": {
+					"lines": 276,
+					"sources": 5,
+					"clones": 0,
+					"duplicatedLines": 0,
+					"percentage": 0,
+					"newDuplicatedLines": 0,
+					"newClones": 0
+				}
+			},
+			"markup": {
+				"sources": {
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/html/crud.html": {
+						"lines": 329,
+						"sources": 1,
+						"clones": 2,
+						"duplicatedLines": 54,
+						"percentage": 16.41,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests_output/FIREFOX_73.0.1_4.15.0-88-generic_first.xml": {
+						"lines": 20,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests_output/FIREFOX_73.0.1_4.15.0-88-generic_firstTest.xml": {
+						"lines": 20,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					},
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/tests_output/FIREFOX_73.0.1_4.15.0-88-generic_google.xml": {
+						"lines": 18,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					}
+				},
+				"total": {
+					"lines": 387,
+					"sources": 4,
+					"clones": 1,
+					"duplicatedLines": 27,
+					"percentage": 6.98,
+					"newDuplicatedLines": 0,
+					"newClones": 0
+				}
+			},
+			"css": {
+				"sources": {
+					"/home/ns-hyd/Downloads/shravan/sample/Nightwatch/html/crud.html": {
+						"lines": 1,
+						"sources": 1,
+						"clones": 0,
+						"duplicatedLines": 0,
+						"percentage": 0,
+						"newDuplicatedLines": 0,
+						"newClones": 0
+					}
+				},
+				"total": {
+					"lines": 1,
+					"sources": 1,
+					"clones": 0,
+					"duplicatedLines": 0,
+					"percentage": 0,
+					"newDuplicatedLines": 0,
+					"newClones": 0
+				}
+			}
+		},
+		"total": {
+			"lines": 692,
+			"sources": 12,
+			"clones": 1,
+			"duplicatedLines": 27,
+			"percentage": 3.9,
+			"newDuplicatedLines": 0,
+			"newClones": 0
+		},
+		"threshold": 50
+	}
+}
